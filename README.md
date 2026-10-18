@@ -1,6 +1,6 @@
 # 🎵 Video to MP3 Converter
 
-A simple, fast, privacy-friendly **video to MP3 converter** that runs entirely in your browser. No installation, no server, no uploads. Your files never leave your computer.
+A simple, fast, privacy-friendly **video to MP3 converter** that runs entirely in your browser. No installation, no server, no uploads. Your files never leave your computer. Source code are open anyone can modify for her fever... 
 
 ## ✨ Features
 
@@ -21,17 +21,10 @@ A simple, fast, privacy-friendly **video to MP3 converter** that runs entirely i
 5. Choose where to save the MP3 file.
 
 ```bash
-git clone https://github.com/<your-username>/video-to-mp3.git
+git clone https://github.com/tanjiur21/video-to-mp3.git
 cd video-to-mp3
 # then open video-to-mp3.html in your browser
 ```
-
-## 🛠️ How it works
-
-1. The browser's built-in Web Audio API (`decodeAudioData`) extracts and decodes the audio track from the video.
-2. [lamejs](https://github.com/zhuker/lamejs) encodes the audio to MP3 in JavaScript.
-3. The File System Access API (`showSaveFilePicker`) lets you pick the save location. Browsers without it fall back to a normal download.
-
 ## 📌 Notes
 
 - **Browser support:** Chrome and Edge give the full experience, including choosing the save location. Firefox and Safari work but save to the default Downloads folder.
@@ -47,7 +40,7 @@ This project bundles [lamejs](https://github.com/zhuker/lamejs), which is licens
 ```
 MIT License
 
-Copyright (c) 2026 <your name>
+Copyright (c) 2026 <Tanjiur Rahman Twha>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
